@@ -1,0 +1,11 @@
+[mysqld]
+character_set_server = utf8mb4
+collation_server = utf8mb4_unicode_ci
+
+innodb_large_prefix = 1
+innodb_file_format = Barracuda
+innodb_file_format_max = Barracuda
+innodb_default_row_format = DYNAMIC
+
+[client]
+default-character-set = utf8mb4
